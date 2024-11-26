@@ -11,10 +11,25 @@ Ce projet analyse comment des facteurs externes influencent l'utilisation des v�
 
 ## **Visualisations Clés**
 ### Graphique 1 : Température vs Flux de Vélo
-![Graphique Température vs Flux de Vélo](Température vs Flux de Vélo.png)
+![Ce graphique montre qu’il n’y a pas de corrélation significative entre la température et le flux de vélos. Que les températures soient négatives ou positives, le nombre moyen de vélos utilisés reste stable.
+](https://github.com/leochrls/Projet-API/blob/main/Temp%C3%A9rature%20vs%20Flux%20de%20V%C3%A9lo.png)
+Ce graphique montre qu’il n’y a pas de corrélation significative entre la température et le flux de vélos. Que les températures soient négatives ou positives, le nombre moyen de vélos utilisés reste stable.
+
 
 ### Heatmap : Température/Précipitations vs Mobilité
-![Heatmap Température/Précipitations](TempératurePrécipitations vs Mobilité.png)
+![Heatmap Température/Précipitations](https://github.com/leochrls/Projet-API/blob/main/Temp%C3%A9raturePr%C3%A9cipitations%20vs%20Mobilit%C3%A9.png)
+ La heatmap révèle que les utilisateurs privilégient les vélos par temps sec, indépendamment de la température. Les précipitations semblent être un facteur déterminant dans l’activité de mobilité.
+
+### Dashboard
+![Dashboard](https://github.com/leochrls/Projet-API/blob/main/Dashboard.png)
+Le tableau de bord Kibana permet d'explorer les données de mobilité de manière interactive, avec des graphiques dynamiques montrant les tendances clés, les corrélations, et les impacts des facteurs externes comme la météo ou les précipitations.
+
+## **Conclusion**
+Les analyses effectuées sur les données de mobilité, en tenant compte des facteurs externes comme la météo et les événements publics, ont révélé des tendances intéressantes. Bien que la température semble avoir peu d'impact sur l'utilisation des vélos, les précipitations ont une influence plus marquée, avec une baisse notable de l'activité de mobilité en cas de pluie. Ces résultats peuvent être utilisés pour optimiser la gestion des services de mobilité urbaine, en ajustant par exemple la disponibilité des vélos, scooters ou trottinettes en fonction des conditions climatiques, ou en prévoyant des campagnes de communication durant les périodes propices à l’utilisation. Les entreprises et les municipalités pourraient également utiliser ces données pour planifier des événements ou ajuster les horaires de services publics en fonction des habitudes de mobilité identifiées.
+
+## **Suite du projet**
+
+Pour améliorer le projet, il faudra trouver un moyen de copntourner l'API Vélo puis créer des DAGs dans Airflow pour une éxécution et une analyse quotidienne.
 
 ## **Difficultés rencontrées**
 - **Limitations des APIs** : Gestion des quotas.
