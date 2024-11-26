@@ -9,6 +9,12 @@ Ce projet analyse comment des facteurs externes influencent l'utilisation des v�
 - **Stockage** : Base PostgreSQL pour les jointures et analyses.
 - **Visualisation** : Tableaux de bord interactifs créés avec Kibana.
 
+## **Outils Utilisés**
+- **Python** : pandas, matplotlib, libraries pour interroger des APIs.
+- **Jupyter Notebook** : Pré-analyse et exploration des données.
+- **PostgreSQL** : Stockage structuré des données.
+- **Kibana** : Visualisation et exploration interactive.
+
 ## **Visualisations Clés**
 ### Graphique 1 : Température vs Flux de Vélo
 ![Ce graphique montre qu’il n’y a pas de corrélation significative entre la température et le flux de vélos. Que les températures soient négatives ou positives, le nombre moyen de vélos utilisés reste stable.
