@@ -11,10 +11,10 @@ Ce projet analyse comment des facteurs externes influencent l'utilisation des v�
 
 ## **Visualisations Clés**
 ### Graphique 1 : Température vs Flux de Vélo
-![Graphique Température vs Flux de Vélo]("C:\Users\leoch\OneDrive\Bureau\DATA\Master 1 SUP DE VINCI\GESTION ENTREPOT DE DONNEES\Compte Rendu projet\Capture d'écran 2024-11-26 232231.png")
+![Graphique Température vs Flux de Vélo](Température vs Flux de Vélo.png)
 
 ### Heatmap : Température/Précipitations vs Mobilité
-![Heatmap Température/Précipitations](images/heatmap_temp_precip.png)
+![Heatmap Température/Précipitations](TempératurePrécipitations vs Mobilité.png)
 
 ## **Difficultés rencontrées**
 - **Limitations des APIs** : Gestion des quotas.
